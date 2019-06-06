@@ -13,11 +13,11 @@ import (
 	ds "github.com/ipfs/go-datastore"
 	dshelp "github.com/ipfs/go-ipfs-ds-help"
 	"github.com/libp2p/go-libp2p-peer"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
+	pstore "github.com/btfslib/go-libp2p-peerstore"
 	record "github.com/libp2p/go-libp2p-record"
 	pb "github.com/libp2p/go-libp2p-record/pb"
-	routing "github.com/libp2p/go-libp2p-routing"
-	ropts "github.com/libp2p/go-libp2p-routing/options"
+	routing "github.com/btfslib/go-libp2p-routing"
+	ropts "github.com/btfslib/go-libp2p-routing/options"
 )
 
 // ErrOffline is returned when trying to perform operations that

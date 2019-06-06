@@ -10,8 +10,8 @@ import (
 	ds "github.com/ipfs/go-datastore"
 	delay "github.com/ipfs/go-ipfs-delay"
 	peer "github.com/libp2p/go-libp2p-peer"
-	routing "github.com/libp2p/go-libp2p-routing"
-	"github.com/libp2p/go-testutil"
+	routing "github.com/btfslib/go-libp2p-routing"
+	"github.com/btfslib/go-testutil"
 )
 
 // MockValidator is a record validator that always returns success.

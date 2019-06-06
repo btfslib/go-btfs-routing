@@ -7,8 +7,8 @@ import (
 
 	cid "github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
-	ropt "github.com/libp2p/go-libp2p-routing/options"
-	testutil "github.com/libp2p/go-testutil"
+	ropt "github.com/btfslib/go-libp2p-routing/options"
+	testutil "github.com/btfslib/go-testutil"
 	mh "github.com/multiformats/go-multihash"
 )
 

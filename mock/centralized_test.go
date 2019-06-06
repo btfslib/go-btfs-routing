@@ -8,8 +8,8 @@ import (
 	cid "github.com/ipfs/go-cid"
 	delay "github.com/ipfs/go-ipfs-delay"
 	u "github.com/ipfs/go-ipfs-util"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
-	testutil "github.com/libp2p/go-testutil"
+	pstore "github.com/btfslib/go-libp2p-peerstore"
+	testutil "github.com/btfslib/go-testutil"
 )
 
 func TestKeyNotFound(t *testing.T) {

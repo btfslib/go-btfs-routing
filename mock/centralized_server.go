@@ -10,8 +10,8 @@ import (
 	ds "github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
 	peer "github.com/libp2p/go-libp2p-peer"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
-	"github.com/libp2p/go-testutil"
+	pstore "github.com/btfslib/go-libp2p-peerstore"
+	"github.com/btfslib/go-testutil"
 
 	offline "github.com/ipfs/go-ipfs-routing/offline"
 )

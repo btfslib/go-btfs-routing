@@ -7,11 +7,11 @@ import (
 	cid "github.com/ipfs/go-cid"
 	logging "github.com/ipfs/go-log"
 	peer "github.com/libp2p/go-libp2p-peer"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
-	routing "github.com/libp2p/go-libp2p-routing"
-	ropts "github.com/libp2p/go-libp2p-routing/options"
-	"github.com/libp2p/go-testutil"
-	ma "github.com/multiformats/go-multiaddr"
+	pstore "github.com/btfslib/go-libp2p-peerstore"
+	routing "github.com/btfslib/go-libp2p-routing"
+	ropts "github.com/btfslib/go-libp2p-routing/options"
+	"github.com/btfslib/go-testutil"
+	ma "github.com/btfslib/go-multiaddr"
 )
 
 var log = logging.Logger("mockrouter")

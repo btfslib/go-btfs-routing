@@ -7,12 +7,12 @@ import (
 
 	cid "github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
-	p2phost "github.com/libp2p/go-libp2p-host"
+	p2phost "github.com/btfslib/go-libp2p-host"
 	peer "github.com/libp2p/go-libp2p-peer"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
+	pstore "github.com/btfslib/go-libp2p-peerstore"
 	record "github.com/libp2p/go-libp2p-record"
-	routing "github.com/libp2p/go-libp2p-routing"
-	ropts "github.com/libp2p/go-libp2p-routing/options"
+	routing "github.com/btfslib/go-libp2p-routing"
+	ropts "github.com/btfslib/go-libp2p-routing/options"
 )
 
 type nilclient struct {
